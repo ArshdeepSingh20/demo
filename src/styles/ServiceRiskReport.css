@@ -2,13 +2,19 @@
     margin-left: 18px;
     margin-right: 18px;
     margin-top: 138px;
+    width: 90%;
+    /* Set the width as needed */
+    overflow-x: auto;
 }
 
 .serviceRiskReport-table {
-    border: 1px solid grey;
+    border: 1px solid #FFFFFF;
     border-collapse: collapse;
-    width: 1140px;
-    border-radius: 5px;
+    /* width: 1140px; */
+    box-shadow: 0px -2px 2px 0px #1B1F250D;
+    width: 125%;
+    /* Set the table width to be greater than the container width */
+    white-space: nowrap;
 }
 
 .grey-heading-border {
@@ -96,7 +102,8 @@ input[type="checkbox"] {
     border-radius: 2px;
     outline: none;
     transition: background-color 0.3s, border-color 0.3s;
-    margin-right: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 input[type="checkbox"]:checked {
@@ -109,4 +116,18 @@ input[type="checkbox"]:checked::before {
     display: block;
     text-align: center;
     color: #EE2528;
+}
+
+
+.serviceRiskReport-container::-webkit-scrollbar {
+    width: 100px;
+    height: 8px;
+}
+
+.serviceRiskReport-container::-webkit-scrollbar-thumb {
+    background: linear-gradient(89.65deg, #E92431 0.86%, #8C36F2 106.14%);
+}
+
+.serviceRiskReport-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
 }

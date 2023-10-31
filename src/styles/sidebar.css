@@ -1,20 +1,6 @@
 /* sidebar.css */
-
-.sidebar {
-    width: 190px;
-    height: 88vh;
-    display: flex;
-    flex-direction: column;
-    background-color: #ee2528;
-    padding: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-  
-    overflow: hidden; /* Hide overflow content for curved edges */
-  }
-
   .sidebar {
-    width: 250px; /* Fixed width for the sidebar */
+    width: 250px !important; 
     height: 88vh;
     display: flex;
     flex-direction: column;
@@ -22,7 +8,6 @@
     padding: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    overflow: hidden; /* Hide overflow content for curved edges */
   }
   
   .profile-container {
