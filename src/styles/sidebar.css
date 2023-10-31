@@ -1,19 +1,23 @@
+/* sidebar.css */
+
 .sidebar {
-    width: 260px;
-    height: 90vh;
+    width: 190px;
+    height: 88vh;
     display: flex;
     flex-direction: column;
-    background-color: #EE2528;
+    background-color: #ee2528;
     padding: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-}
-
-.profile-container {
-    margin-bottom: 100px; /* Add a 100px margin below the Profile component */
-}
-
-.sidebar-link {
+  
+    overflow: hidden; /* Hide overflow content for curved edges */
+  }
+  
+  .profile-container {
+    margin-bottom: 60px;
+  }
+  
+  .sidebar-link {
     display: flex;
     align-items: center;
     color: white;
@@ -24,11 +28,22 @@
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0em;
+    transition: background-color 0.3s; /* Add a smooth transition for background color */
+  }
+  
+  
+.sidebar-link.active {
+    background-color: #fff; /* Change the background color for active links */
+    color: #ee2528; /* Change the text color for active links */
+    width: 200px; /* Adjust the width for active links */
+    padding: 15px; /* Adjust the padding for active links */
+    border-top-left-radius: 25px; /* Apply border radius to the left side */
+    border-bottom-left-radius: 25px; /* Apply border radius to the left side */
 }
-.sidebar-links{
-    margin-left: 58px;
-}
-
-.sidebar-icon {
+  .sidebar-links {
+    margin-left: 20px;
+  }
+  
+  .sidebar-icon {
     margin-right: 10px;
-}
+  }
