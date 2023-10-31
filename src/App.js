@@ -12,10 +12,10 @@ function App() {
       <div className="app">
         <Sidebar />
         <Routes>
-          <Route path="/dashboard" component={Dashboard} />
-          <Route path="/service-risk-report" component={ServiceRiskReport} />
-          <Route path="/notifications" component={Notifications} />
-          <Route path="/report" component={Report} />
+          <Route path="/dashboard" element={<Dashboard/>} />
+          <Route path="/service-risk-report" element={<ServiceRiskReport/>} />
+          <Route path="/notifications" element={<Notifications/>} />
+          <Route path="/report" element={<Report/>} />
         </Routes>
       </div>
     </Router>

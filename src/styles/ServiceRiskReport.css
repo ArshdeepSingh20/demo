@@ -1,0 +1,112 @@
+.serviceRiskReport-container {
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 138px;
+}
+
+.serviceRiskReport-table {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    width: 1140px;
+    border-radius: 5px;
+}
+
+.grey-heading-border {
+    color: grey;
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0;
+    padding: 8px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.white-row {
+    background-color: #F9FAFB;
+    height: 50px;
+}
+
+.light-grey-row {
+    background-color: #FFFFFF;
+    height: 50px;
+}
+
+.border {
+    padding: 8px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.medicine-name {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    white-space: nowrap;
+    color: #1B1F25;
+    margin-left: 15px;
+}
+
+.serviceRiskReport-table tbody tr:nth-child(1),
+.serviceRiskReport-table tbody tr:nth-child(2) {
+    color: #07DA01;
+}
+
+.serviceRiskReport-table tbody tr:nth-child(3),
+.serviceRiskReport-table tbody tr:nth-child(4) {
+    color: #0586EC;
+}
+
+.serviceRiskReport-table tbody tr:nth-child(5),
+.serviceRiskReport-table tbody tr:nth-child(6),
+.serviceRiskReport-table tbody tr:nth-child(7) {
+    color: #07DA01;
+}
+
+.serviceRiskReport-table tbody tr:nth-child(8) {
+    color: #EE2528;
+}
+
+.serviceRiskReport-table tbody tr:nth-child(9) {
+    color: #0586EC;
+}
+
+.serviceRiskReport-table tbody tr:nth-child(10) {
+    color: #07DA01;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #EE2528;
+    border-radius: 2px;
+    outline: none;
+    transition: background-color 0.3s, border-color 0.3s;
+    margin-right: 20px;
+}
+
+input[type="checkbox"]:checked {
+    background-color: white;
+    border-color: #EE2528;
+}
+
+input[type="checkbox"]:checked::before {
+    content: '\2713';
+    display: block;
+    text-align: center;
+    color: #EE2528;
+}
